@@ -2,7 +2,7 @@
 
 NOTE: This is a quick and dirty script. Some prior knowledge of Twitter API, PHP and cronjobs would be helpful.
 
-The code searches each username via the Twitter API and looks for Error CODE 50 = User not found.
+We search each username via the Twitter API and look for Error CODE 50 = User not found.
 
 I cannot provide assistance with setup, configuration or support. I provide the code "as-is".
 
