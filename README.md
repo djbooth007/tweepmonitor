@@ -1,6 +1,8 @@
-# Monitor Twitter handles for availability
+# Monitor Twitter username for availability
 
 NOTE: This is a quick and dirty script. Some prior knowledge of Twitter API, PHP and cronjobs would be helpful.
+
+The code searches each username via the Twitter API and looks for Error CODE 50 = User not found.
 
 I cannot provide assistance with setup, configuration or support. I provide the code "as-is".
 
@@ -26,4 +28,10 @@ Add your Twitter API details to the file **config.php**
 
 Twitter has API rate limit of 1 query per second. Limit the number of usernames to monitor accordingly.
 
-You can set up a cron job to execute the script every x minutes. 
+You can set up a cron job to execute the file **bot.php** every x minutes. 
+
+### Notification Setup
+
+Add your email address in the file **bot.php** where you see:
+
+`$recipient_email = "";`
